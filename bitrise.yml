@@ -1,0 +1,9 @@
+format_version: "8"
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+
+workflows:
+  test:
+    steps:
+    - script@1.1.5:
+        inputs:
+        - content: gradle -q hello

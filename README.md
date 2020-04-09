@@ -1,0 +1,3 @@
+```
+bitrise run test
+```
